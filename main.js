@@ -25,6 +25,12 @@ let curr_track = document.createElement('audio');
 // Define the list of tracks that have to be played
 let track_list = [
 {
+    name: "Destiny",
+	artist: "August",
+	image: "images/Destiny.png",
+	path: "Music/Destiny.mp3"
+},
+{
 	name: "Angel Paradise",
 	artist: "August",
 	image: "images/AngelParadise.png",
