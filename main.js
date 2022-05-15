@@ -36,6 +36,9 @@ let track_list = [
 	image: "images/FantasyWorld.png",
 	path: "Music/Fantasy World.mp4"
 },
+{
+
+},
 ];
 
 function loadTrack(track_index) {
