@@ -25,10 +25,16 @@ let curr_track = document.createElement('audio');
 // Define the list of tracks that have to be played
 let track_list = [
 {
-	name: "Love You First",
-	artist: "BrokenNickXo",
-	image: "Logos/love you first.jpg",
-	path: "Music/love you first.mp3"
+	name: "Angel Paradise",
+	artist: "August",
+	image: "images/AngelParadise.png",
+	path: "Music/Angel Paradise.mp4"
+},
+{
+    name: "Fantasy World",
+	artist: "August",
+	image: "images/FantasyWorld.png",
+	path: "Music/Fantasy World.mp4"
 },
 ];
 
@@ -48,7 +54,7 @@ function loadTrack(track_index) {
     track_artist.textContent = track_list[track_index].artist;
     now_playing.textContent =
         "PLAYING " + (track_index + 1) + " OF " + track_list.length;
-    
+
     // Set an interval of 1000 milliseconds
     // for updating the seek slider
     updateTimer = setInterval(seekUpdate, 1000);
