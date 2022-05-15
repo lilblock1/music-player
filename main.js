@@ -36,9 +36,13 @@ let track_list = [
 	image: "images/FantasyWorld.png",
 	path: "Music/Fantasy World.mp4"
 },
+<<<<<<< Updated upstream
 {
 
 },
+=======
+
+>>>>>>> Stashed changes
 ];
 
 function loadTrack(track_index) {
